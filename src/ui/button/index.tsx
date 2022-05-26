@@ -1,10 +1,10 @@
 import styled from "styled-components";
-
+import Link from 'next/link';
 
 
 interface Props{
     text: string;
-    bgColor: string;
+    bgColor: string; 
 }
 
 
@@ -14,9 +14,9 @@ function Button(props: Props){
             <Root bgColor={props.bgColor}>
                 {props.text}
             </Root>
-        
         </>
     )
+   
 }
 
 

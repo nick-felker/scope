@@ -18,7 +18,6 @@ function Header(props:Props){
 
 
 const ExternalWrapper = styled.div`
-    width: 100vw;
     height: 100px;
     display: flex;
     align-items: center;
